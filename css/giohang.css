@@ -1,0 +1,488 @@
+/* .container {
+    background-color: #CFFDE1;
+} */
+
+#maingiohang{
+    background-color: #EBF6FC;
+    height: 1500px;
+    width: 100%;
+}
+
+.wrapper {
+    background-color:#EBF6FC;
+}
+
+.returngiohang {
+    color: #3d5656;
+    font-weight: bold;
+
+}
+
+section {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    min-width: 0;
+}
+
+.content {
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 18px rgba(0,0,0,.12);
+    border-radius: 2px;
+}
+
+.list {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.sanpham{
+    display: block;
+    padding: 10px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hinhanhsp {
+    width: 25%;
+    float: left;
+}
+
+.list .hinhanhsp a img {
+    width: 100px;
+    height: 134px;
+    margin: auto;
+}
+
+img {
+    border: 0
+}
+
+
+.inforsp {
+    display: block;
+    margin-left: 95px;
+}
+
+button {
+    display: block;
+    overflow: hidden;
+    margin: 15px auto 0;
+    border: 0;
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    float: middle;
+}
+
+.list .hinhanhsp span {
+    float: middle;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 5px 3px 0 0;
+}
+
+.list .tensach-gia a {
+    float: left;
+    width: 60%;
+    font-size: 17px;
+    color: #333;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.list .inforsp .tacgia-soluong {
+    width: 100%;
+    height: 30px;
+    margin-top: 42px;
+}
+
+.tacgia {
+    font-size: 17px;
+    float: left;
+}
+
+.infosp {
+    display: block;
+    margin-left: 95px; 
+}
+.tensach {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list .inforsp .gia {
+    float: right;
+    color: #FED049;
+    font-size: 17px;
+    text-align: right;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.soluong {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    border-radius: 3px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tacgia-soluong .soluong .minus {
+    float: left;
+    border-right: 1px solid #dfdfdf;
+    background: #fff;
+    width: 32%;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.tacgia-soluong .soluong .minus i {
+    width: 12px;
+    height: 2px;
+    background: #ccc;
+    display: block;
+    margin: 14px auto;
+}
+
+.tacgia-soluong .soluong .number {
+    font-size: 14px;
+    color: #333;
+    float: left;
+    width: 33%;
+    height: 30px;
+    text-align: center;
+}
+
+.tacgia-soluong .soluong input {
+    border: none;
+    margin: 1px 0 1px 1px;
+}
+
+.tacgia-soluong .soluong .plus {
+    float: right;
+    border-left: 1px solid #dfdfdf;
+    background: #fff;
+    width: 32%;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tacgia-soluong .soluong .plus i:first-child {
+    width: 12px;
+    height: 2px;
+    background: #288ad6;
+    display: block;
+    margin: 14px auto;
+}
+
+.tacgia-soluong .soluong .plus i:nth-child(2) {
+    width: 2px;
+    height: 12px;
+    background: #288ad6;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    right: 0;
+}
+
+.tamtinh {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 4px;
+    padding: 10px 30px;
+    border-top: 1px solid #d1d1d1;
+}
+
+.tamtinh>span:nth-child(2) {
+    float: right;
+}
+
+.khachhang h4 {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.khachhang {
+    display: block;
+    overflow: hidden;
+    border-top: 1px solid #d1d1d1;
+    padding: 10px 30px;
+}
+
+.khachhang .formkhachhang, .texterror {
+    display: block!important;
+}
+
+.formkhachhang .gioitinh {
+    display: block;
+    overflow: hidden;
+}
+
+.formkhachhang .gioitinh span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #333;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.formkhachhang .thongtin {
+    display: block;
+    overflow: hidden;
+    padding: 12px 0 10px;
+}
+
+.form-label {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    transition: all .2s;
+    cursor: text!important;
+}
+
+.formkhachhang .thongtin .hoten input {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.khachhang .thongtin .hoten {
+    float: left;
+    width: 49%;
+    margin: 0 1% 0 0;
+}
+
+.formkhachhang .thongtin .sdt input {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.khachhang .thongtin .sdt {
+    float: left;
+    width: 49%;
+    margin: 0 1% 0 0;
+}
+
+.diachi {
+    display: block;
+    padding: 0 30px;
+}
+
+
+.diachi h4 {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.chondiachi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+.diachi .chitietdiachi form p {
+    display: block;
+    overflow: hidden;
+    color: #333;
+}
+
+.chondiachi .btn-click button {
+    display: block;
+    padding: 8px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    width: 100%;
+    background: #fff;
+    text-align: left;
+    color: #333;
+    position: relative;
+    cursor: pointer;
+}
+                                
+.chondiachi .btn-click .select {
+    position: absolute;
+    top: 46px;
+    left: 0;
+    right: 0;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    background: #fff;
+    z-index: 1;
+    padding: 0 10px;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.chondiachi .select aside {
+    float: left;
+    width: -moz-fit-content;
+    width: fit-content;
+    overflow: hidden;
+
+}
+
+.chondiachi .list aside {
+    min-width: 140px;
+}
+
+.chondiachi .duong input{
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 7.5px;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.chondiachi ::placeholder {
+    color: #333;
+}
+
+.ghichu {
+        display: block;
+        border-bottom: 1px solid #d1d1d1;
+        padding: 20px 30px;
+        margin-bottom: 2px;
+}
+
+.ghichu .note input{
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 7.5px;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.ghichu .hoadon span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #333;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.thanhtoan {
+    display: block;
+    overflow: visible;
+    padding: 20px 30px;
+    position: relative;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 50px;
+}
+
+.thanhtoan .tongcong strong {
+    float: left;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.thanhtoan .tongcong strong:nth-child(2) {
+    float: right;
+    color: #FED049;
+}
+
+.thanhtoan button.submitorder {
+    display: block;
+    overflow: hidden;
+    color: #FED049;
+    text-align: center;
+    height: 60px;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background:#28816b;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.thanhtoan small{
+        display: block;
+        overflow: hidden;
+        color: #666;
+        font-size: 13px;
+        text-align: center;
+        font-style: italic;
+}
+
+.chondiachi select {
+    word-wrap: normal;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 7.5px;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.thanhtoan .btnthanhtoan input {
+    display: block;
+    overflow: hidden;
+    color: #FED049;
+    text-align: center;
+    height: 60px;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background:#28816b;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 18px;
+}

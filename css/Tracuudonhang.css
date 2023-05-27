@@ -1,0 +1,301 @@
+#maindonhang{
+  background-color: #EBF6FC;
+  height: 1500px;
+  width: 100%;
+}
+#maindonhang.content{
+    width:1110px;
+    height: 800px;
+    background-color:white;
+    margin-top: 2.5%
+}
+
+#maindonhang.section{
+    background-color: white;
+    border: 0;
+    list-style:none;
+}
+#maindonhang.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-bottom: 5px;
+ }
+ #maindonhang.content1 {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    float:left;
+  }
+
+  
+ 
+  #maindonhang.sach1 {
+    
+   flex-direction: column;
+    align-items: center;
+    width: 1110px;
+   
+  }
+  
+  #maindonhang.sach1 img {
+    float:left;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top:20px;
+  }
+  
+  #maindonhang.ten1 {
+    margin-top: 15px;   
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  #maindonhang.tacgia1 {
+    
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  }
+  
+  #maindonhang.gia1 {
+   
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  color: rgb(243, 188, 7);
+  }
+  .sl1 {
+   
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  }
+  #maindonhang.Tong1 {
+    float:left;
+    flex-direction: column;
+    align-items: center;
+    width: 1110px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+  #maindonhang.Tongtien{
+    color: rgb(243, 188, 7);
+    margin-bottom: 10px;
+  }
+  #maindonhang.huy{
+    border-top:1px solid #D6D6D6;
+    float:left;
+    flex-direction: column;
+    align-items: center;
+    width: 1110px;
+    color:rgb(177, 177, 169)
+}
+#maindonhang.hoanthanh{
+    color:rgb(177, 177, 169)
+}
+.sach2 {
+    
+    flex-direction: column;
+     align-items: center;
+     width: 1110px;
+    
+   }
+.sach2 img {
+    float:left;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top:5px;
+  }
+  .ten2 {
+    margin-top: 30px;   
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .tacgia2 {
+    
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  }
+  
+  .gia2 {
+   
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  color: rgb(243, 188, 7);
+  }
+  .sl2 {
+   
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  }
+  .sach3 {
+    float:left;
+    flex-direction: column;
+     align-items: center;
+     width: 1110px;
+    
+   }
+.sach3 img {
+    float:left;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top:5px;
+  }
+  .ten3 {
+    margin-top: 30px;   
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .tacgia3 {
+    
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  }
+  
+  .gia3 {
+   
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  color: rgb(243, 188, 7);
+  }
+  .sl3 {
+   
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  }
+  .Tong2 {
+    float:left;
+    flex-direction: column;
+    align-items: center;
+    width: 1110px;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .bt-mualai2 button{
+   
+    background-color: #0c6738;
+    color: white;
+    border-radius:5px black;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 20px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float:left;
+  }
+  #maindonhang.bt-chitiet2 button {
+    background-color: #0c6738;
+    color:white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left:20px;
+}
+.bt-mualai button{
+   
+    background-color: #0c6738;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float:left;
+  }
+  #maindonhang.bt-chitiet button {
+    background-color: #0c6738;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left:20px;
+}
+#maindonhang.Tongtien2{
+    color: rgb(243, 188, 7);
+    margin-bottom: 10px;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#maindonhang button {
+    display: block;
+    overflow: hidden;
+    margin: 15px auto 0;
+    border: 0;
+    background:#fff;
+    color:#3D5656;
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    float: middle;
+}
+
+#maindonhang .button-container button {
+   margin: 10px;
+   padding: 10px 20px;
+   background-color:white;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+ 
+ #maindonhang .footer{
+    height: 350px;
+    width: 100%;
+    background-color: #1D5433;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+#maindonhang.footer.box{
+    width: 250px;
+
+}
+#maindonhang.footer p{
+    color: aliceblue;
+    font-size: small;
+}
+#maindonhang.footer b{
+    color: aliceblue;
+    font-size: small;
+}

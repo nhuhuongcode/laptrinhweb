@@ -1,0 +1,439 @@
+
+button {
+    display: block;
+    overflow: hidden;
+    margin: 15px auto 0;
+    border: 0;
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    float: middle;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    min-width: 0;
+}
+
+.bannersale{
+    height: auto;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.bannersale img{
+    width: 100%;
+    margin-top: 10px;
+}
+#mainchitiet{
+    display: block;
+    background-color: #EBF6FC;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    display: flex;
+    font-size: large;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text a{
+    font-weight: bold;
+    color: #28816b;
+}
+.text p{
+    color:#28816b;
+    font-weight: bold;
+}
+.chitiet{
+    display: flex;
+    width: 98%;
+    height: 630px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contentmota{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.chitiet .content{
+    width:1311px;
+}
+.header_ct{
+    margin-left: 20px;
+}
+.chitiet .tacgia{
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+    width: 100%;
+}
+.tacgia p{
+    padding-right: 10px;
+}
+.title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.price{
+    background-color: #f7f7f7;
+    margin-left: 20px;
+    border-radius: 4px;
+    width: fit-content;
+    margin-bottom: 20px;
+
+}
+.price h2{
+    font-size: 40px;
+    color:#FEbe00;
+    margin-left: 10px;
+    margin: 15px 15px 15px 15px;
+}
+.linengang{
+    height: 2px;
+    margin-top: 12px;
+    margin-left: 20px;
+    background: rgb(242, 242, 242);
+
+}
+.giaohang{
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.diachigiaohang2{
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.diachigiaohang4{
+    font-weight: bold;
+    color: blue;
+    padding-left:5px;
+}
+.phigiaohang{
+    height:80px;
+    margin-left: 20px;
+    width: 600px;
+    border-radius: 4px;
+    border:1px solid gray;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.phigiaohang1{
+    height:28px;
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.phigiaohang1a{
+    font-weight: bold;
+    color:#FEbe00;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.phigiaohang1b{
+    font-weight: bold;
+    color:#28816b;
+}
+.phigiaohang2{
+    margin-left:10px;
+    font-size: 20px;
+}
+.soluong_chonmua{
+    height:100px;
+}
+.soluong_chonmua p{
+    margin-left:20px;
+    margin-top:10px;
+    font-size: 20px;
+}
+.soluong_chonmua .soluong {
+    display: flex;
+    justify-content: space-between;
+    margin-left:20px;
+    overflow: hidden;
+    width: 150px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    border-radius: 3px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333;
+    margin-right: 777px;
+}
+
+.soluong_chonmua .soluong .minus {
+    
+    border: 1px solid #fff;
+    background: #fff;
+    width: 32%;
+    height: 30px;
+    position: relative;
+   
+    cursor: pointer;
+}
+
+.soluong_chonmua .soluong .minus i {
+    width: 12px;
+    height: 2px;
+    background: #ccc;
+    display: block;
+    margin: 14px auto;
+}
+
+
+.soluong_chonmua .soluong .plus {
+   
+    border: 1px solid #fff;
+    background: #fff;
+    width: 32%;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.soluong_chonmua .soluong .plus i:first-child {
+    width: 12px;
+    height: 2px;
+    background: #288ad6;
+    display: block;
+    margin: 14px auto;
+}
+
+.soluong_chonmua .soluong .plus i:nth-child(2) {
+    width: 2px;
+    height: 12px;
+    background: #288ad6;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    right: 0;
+}
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background-color: lightgray;
+}
+.soluong_chonmua .chonmua {
+   display: block;
+    overflow: visible;
+    position: relative;
+    /* margin-bottom: 50px; */
+    /* float: left; */
+    HEIGHT: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.chonmua button.submitorder {
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    margin: 10px auto;
+    width: 250px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background:#28816b;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 18px;
+    float: left;
+    margin-left: 20px;
+}
+
+.sanphamtuongtu{
+    
+    width: 98%;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.icon_left{
+    margin-top: 90px;
+}
+.icon_right{
+    margin-top:90px;
+    margin-left:80px;
+}
+#mainchitiet .thongtin{
+    
+    width: 98%;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.mota{
+    
+    width: 98%;
+    height: 300px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.image{
+    height: 350px;
+    width: 250px;
+    margin-top: 20px;
+    
+    
+}
+.image img{
+    width:100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.groupimage {
+    height: 630px;
+    width: 450px;
+}
+.ortherimage{
+    display:flex;
+    
+}
+.ortherimage img{
+    width:100%;
+    height:100px;
+    width:80px;
+    margin-left:10px;
+}
+
+.line{
+    display: flex;
+    margin-left: 20px;
+    width: 2px;
+    background: rgb(242, 242, 242);
+    flex-shrink: 0;
+}
+ul.sanphamtuongtu_list {
+    padding: 0;
+    margin:0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+ul.sanphamtuongtu_list li {
+    width: 10%;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: auto;
+
+}
+ul.sanphamtuongtu_list li img {
+    width: 100%;
+    box-shadow: 5px 8px 10px #888888;
+    margin-bottom: 10px;
+    height: 115px;
+}
+ul.sanphamtuongtu_list li a {
+    text-decoration: none;
+}
+.thongtin table {
+    max-width: 98%;
+    height: auto;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    line-height: 21px;
+    width: 100% !important;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    
+}
+.thongtin table tr {
+    font-size: 15px;
+    border-bottom: 0px;
+    
+}
+.thongtin table tr th:first-child {
+    width: 220px;
+    vertical-align: top;
+    color: rgb(79, 79, 79);
+    font-size: 15px;
+    font-weight: 700;
+    background: rgb(239, 239, 239);
+    padding: 10px 15px;
+}
+.thongtin table tr th:last-child {
+    border-right: 2px black;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.sanphamtuongtu h3 {
+    color: #FEbe00; 
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.thongtin h3 {
+    color: #FEbe00; 
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.table th {
+    border: 1px solid #dee2e6;
+}
+
+.mota h3 {
+    color: #FEbe00; 
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.contentmota {
+    margin-left: 30px;
+}
+
+.soluong_chonmua .chonmua input {
+
+    margin-left: 25px;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+}
+
+.sanphamtuongtu .author {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.sanphamtuongtu .price_product {
+    float: left;
+    color: #FEbe00;
+}
+

@@ -1,0 +1,93 @@
+#maintracuu{
+    background-color: #EBF6FC;
+    height: 1500px;
+    width: 100%;
+}
+
+.wrapper {
+    background-color:#EBF6FC;
+}
+
+
+section {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    min-width: 0;
+}
+
+button {
+    display: block;
+    overflow: hidden;
+    margin: 15px auto 0;
+    border: 0;
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    float: middle;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+ .returngiohang {
+    color: #3d5656;
+    font-weight: bold;
+
+}
+
+
+.content .submit {
+    display: block;
+    overflow: hidden;
+    color: #FED049;
+    text-align: center;
+    height: 60px;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background:#28816b;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.content .sodienthoai {
+    height: 50px;
+    position: relative;
+    margin-left: 90px;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.content {
+    height: 300px;
+}
+
+.content form {
+    margin-top: 40px;
+}
+
+.done {
+    background-color: #ebf6fc;
+    color: #3d5656;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    font-weight: bold;
+}
+
+.content span {
+    margin-top: 15px;
+}

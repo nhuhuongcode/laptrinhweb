@@ -1,0 +1,347 @@
+section {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    min-width: 0;
+}
+
+.content {
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 18px rgba(0,0,0,.12);
+    border-radius: 2px;
+}
+
+.wrapper {
+    background-color:#EBF6FC;
+}
+
+#mainthanhtoan{
+    background-color: #EBF6FC;
+    height: 1500px;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    overflow: hidden;
+    margin: 15px auto 0;
+    border: 0;
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    float: middle;
+}
+
+.returngiohang {
+    color: #3d5656;
+    font-weight: bold;
+}
+
+.thanhcong {
+    background-color: #ebf6fc;
+    color: #3d5656;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    font-weight: bold;
+}
+
+.thanhcong span {
+    margin-top: 15px;
+}
+
+.camon {
+    height: 30px;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.donhang {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background: #f7f7f7;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.dh{
+    margin-right: 200px;
+}
+
+.chitietdonhang {
+    color: blue;
+    font-style: italic;
+}
+
+.huy {
+    float: right;
+    color: red;
+    font-style: italic;
+}
+
+.chitietthanhtoan{
+    margin: 15px 20px;
+}
+
+.nguoinhan {
+ font-weight: bold;
+}
+
+.dcgh {
+    font-weight: bold;
+}
+
+.tt {
+    font-weight: bold;
+}
+
+.money {
+    font-weight: bold;
+    color: #FED049;
+}
+
+.donhang .chitiet li {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.xacnhan {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 4px;
+    border: dashed  #FED049;
+    cursor: pointer;
+    background: #fffaed;
+    font-size: 15px;
+}
+
+.xacnhan p {
+    color: #FED049;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.xacnhan {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 4px;
+    border: dashed  #FED049;
+    cursor: pointer;
+    background: #fffaed;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.hinhthuc {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.hinhthuc li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.hinhthuc p {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.hinhthuc input {
+    margin-right: 5px;
+}
+
+.xnhan button.submitorder {
+    display: block;
+    overflow: hidden;
+    color: #FED049;
+    text-align: center;
+    height: 60px;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background:#28816b;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.xnhan {
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.timegiaohang {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.timegiaohang .a {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.timegiaohang .time {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin: 10px auto;
+    width: 85%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    border: #999 2px solid;
+    padding: 15px;
+    background-color: #f7f7f7;
+}
+
+.listdonhang .hasp span {
+    float: middle;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 5px 3px 0 0;
+}
+
+.listdonhang .tensach-gia a {
+    float: left;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tgia {
+    font-size: 14px;
+}
+
+.slg {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.infosach {
+    display: block;
+    margin-left: 5px; 
+    float: left;
+}
+.ten {
+    display: block;
+}
+
+.listdonhang .tensach-gia span {
+    float: right;
+    color: #FED049;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.listdonhang .hasp a img {
+    width: 90px;
+    height: 124px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sach {
+    list-style: none;
+}
+
+.time p {
+    font-style: italic;
+
+}
+
+.muathem button.submitorder {
+    display: block;
+    overflow: hidden;
+    color: #28816b;
+    text-align: center;
+    height: 60px;
+    margin: 10px auto;
+    width: 65%;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background:#ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border: #28816b 2px solid;
+}
+
+.muathem {
+    font: #28816b;
+    margin-bottom: 50px;
+    display: block;
+    overflow: visible;
+    padding: 3px 3px;
+    position: relative;
+}
+
+.hinhthuc .mot {
+    margin-right: 200px;
+}
+
+.hinhthuc .hai {
+    margin-right: 330px;
+}
+
+.hinhthuc .ba {
+    margin-right: 280px;
+}
+
+.hinhthuc .bon {
+    margin-right: 400px;
+}
